@@ -1,11 +1,11 @@
-#include <stdio.h
+#include <stdio.h>
 /**
- * main - A C prorgam that prints statements usin printf and returns o
- * return; o
+ * main - A C program that prints statements using printf
+ * return; 0
  */
 
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
