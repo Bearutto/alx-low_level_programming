@@ -21,8 +21,11 @@ int main(void)
 
 			if (!(c == 99 && d == 99))
 			{
-				putchar(',');
-				putchar(' ');
+				if ((c / 10) != (d / 10) || (c % 10) != (d % 10))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
