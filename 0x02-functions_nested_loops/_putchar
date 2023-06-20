@@ -1,0 +1,13 @@
+#include <unistd.h>
+
+/**
+*_puchar - writes the character f to stdout
+*@f: The character to print
+*
+*Return: 1 (Success0)
+*On error, return -1, and errno is set appropriately
+*/
+int _putchar(char f)
+{
+return (write(1, &f, 1));
+}
