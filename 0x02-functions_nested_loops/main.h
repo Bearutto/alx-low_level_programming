@@ -1,7 +1,7 @@
-#ifndef main.h
-#define main.h
+#ifndef MAIN_H
+#define MAIN_H
 
-int _putchar(char k)
+int _putchar(char C) // unused parameter c} 
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
